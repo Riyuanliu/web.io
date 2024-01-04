@@ -1,0 +1,27 @@
+/*skill*/
+#about-section .our-skills .container{
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.skill-group h3 {
+    font-size: 19px;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    opacity: 0.5;
+    font-family: 'Poppins' sans-serif;
+}
+.skill-group ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+}
+.skill-group li {
+    background: var(--skin-color); /* Background color for the skill item */
+    color: black; /* Text color for the skill item */
+    display: inline-block; /* Aligns items in a row */
+    margin-top:5px;
+    margin-right: 10px; /* Spacing between items */
+    padding: 5px 10px; /* Padding inside each item */
+    border-radius: 5px; /* Rounded corners for each item */
+}
